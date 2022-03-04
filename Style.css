@@ -1,0 +1,183 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/*body css*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-fluid{
+    background-color: #815C16;
+    height: 28px;
+}
+span{
+    font-size: 12px;
+    margin-left:5px;
+    position: relative;
+}
+span::after{
+    position:absolute;
+    content:"";
+    height: 15px;
+    width: 2px;
+    right:-5px;
+    top:0px;
+    background: white;
+   
+}
+.container span::after:last-child{
+    background: none;
+    
+}
+.inner-call h3{
+   font-size: 26px;
+   font-weight: 700;
+    text-align: right;
+   
+}
+.mr-2{
+    margin-right: 20px;
+}
+.ml-3{
+    margin-left:30px;
+}
+.number-1 h4{
+    font-size: 28px;
+    font-weight: 700;
+    text-indent: 50px;
+    position:relative;
+}
+.number-1 h4::after{
+    position:absolute;
+    content:"";
+    height: 25px;
+    width: 4px;
+    background: #BE861D;
+    top:0;
+    right:-15px;
+}
+.number-2 h4{
+    font-size: 26px;
+    font-weight: 700;
+    margin-left:-40px;
+    
+}
+.main-menu{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   max-height: 100%;
+   max-width: 100%;
+   padding:55px;
+}
+ul {
+   
+    background:#DFD7C7;
+    list-style:none;
+   width: 100%;
+}
+
+.navbar{
+    position:absolute;
+    bottom:-8px;
+    left:90px;
+    right:100px;
+   
+}
+
+.active,.inner-menu ul li:hover{background:limegreen;}
+.main-banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dropdown-menu{
+    background:#DFD7C7;
+   
+}
+.main-banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    max-height: 100%;
+    padding:100px;
+    position: relative;
+}
+
+.inner-banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    padding:20px;
+   
+    top:0;
+ 
+}
+.banner-area{
+    position:relative;
+}
+.left-banner{
+    position: relative;
+   
+}
+.banner-heading, .heading h2{
+font-size: 28px;
+font-weight: 700;
+color:#755314;
+}
+.banner-heading, .heading{
+    width:373px;
+   height:50px;
+   padding:10px;
+    background:#DFD7C7;
+   
+
+   
+}
+.banner-text{
+    background:#755314;
+    
+}
+.banner-text p{
+   font-size: 12px;
+   color:white;
+   padding:10px 10px 20px 10px;
+} 
+.right-side{
+    position:absolute;
+    top:60px;
+    right:-52px;
+}
+.right-banner{
+    position: relative;
+    height: 350px;
+}
+.contact-form{
+    background:#815C16;
+    width:370px;
+    padding:20px;
+    height: 350px;
+   
+}
+.contact-form input{
+   margin:5px;
+    width:100%;
+}
+.btn{
+    background:#DFD7C7;
+    padding:2px;
+
+}
+.right-button{
+    position:absolute;
+    bottom:-40px;
+    right:-10px;
+}
+.right-button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 26px;
+    color:#815C16;
+    font-weight: 700;
+}
+
